@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ismat Ara Khan | Data Scientist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Ismat Ara Khan - Data Scientist. Projects include ML, NLP, Clustering, Fraud Detection, and Power BI.">
+  <meta name="keywords" content="Data Science, Machine Learning, NLP, Clustering, Fraud Detection, Power BI">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #0b0f19;
+      color: #e5e7eb;
+    }
+
+    /* NAVBAR */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(11, 15, 25, 0.95);
+      border-bottom: 1px solid #1f2937;
+      z-index: 1000;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      list-style: none;
+      padding: 15px;
+      margin: 0;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 100px 20px;
+    }
+
+    /* HERO */
+    #home {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-content {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #9ca3af;
+      margin-bottom: 20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .primary {
+      background: #38bdf8;
+      color: #0b0f19;
+    }
+
+    .primary:hover {
+      background: #0ea5e9;
+    }
+
+    .secondary {
+      border: 1px solid #38bdf8;
+      color: #38bdf8;
+    }
+
+    .secondary:hover {
+      background: #38bdf8;
+      color: #0b0f19;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+
+    /* SKILLS */
+    #skills ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #1f2937;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+
+    .project-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .project-tech span {
+      display: inline-block;
+      margin: 5px 5px 0 0;
+      padding: 5px 10px;
+      background: #38bdf8;
+      color: #0b0f19;
+      border-radius: 5px;
+      font-size: 0.75rem;
+    }
+
+    .project-links a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .project-links a:hover {
+      color: #0ea5e9;
+    }
+
+    /* CONTACT */
+    #contact a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #020617;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-content">
+    <h1>Hi, I'm <span>Ismat Ara Khan</span></h1>
+    <p class="subtitle">
+      Data Scientist | Statistics MSc | ML & AI (University of Calgary)
+    </p>
+
+    <div class="buttons">
+      <a href="#projects" class="primary">View My Work</a>
+      <a href="#contact" class="secondary">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a data scientist with a strong foundation in statistics and applied data analysis.
+    I work with Python, SQL, and machine learning to extract insights from real-world data.
+    I am currently enhancing my applied ML skills through an ML & AI bootcamp at the University of Calgary.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Python, SQL, R</li>
+    <li>EDA & Feature Engineering</li>
+    <li>Statistical Modeling & Hypothesis Testing</li>
+    <li>Machine Learning (Regression, Classification, Clustering)</li>
+    <li>scikit-learn, Pandas, NumPy</li>
+    <li>Power BI, Tableau</li>
+    <li>NLP & Text Analytics</li>
+  </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h3>Clustering Wholesale Distributors Data</h3>
+      <p>
+        Applied K-Means and Hierarchical clustering on wholesale customer data, using PCA for visualization and Silhouette/Dunn indices for evaluation.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>ML</span>
+        <span>Clustering</span>
+        <span>Pandas</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Clustering-Wholesale-distributors-data-By-using-ML-Method">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3>Fraud Detection using Machine Learning</h3>
+      <p>
+        Built classification models to detect credit card fraud on imbalanced datasets using XGBoost, Random Forest, Logistic Regression, and evaluation metrics.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>ML</span>
+        <span>Classification</span>
+        <span>Imbalanced Data</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Fraud-Detection-by-using-Machine-Learning-Methods">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <h3>Sentiment Analysis of Text Data using NLP</h3>
+      <p>
+        Performed text preprocessing, feature extraction, and sentiment classification using NLP techniques and machine learning models.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>NLP</span>
+        <span>Text Mining</span>
+        <span>ML</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Sentiment-Analysis-of-Text-Data-using-NLP">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <h3>Book Recommendation System</h3>
+      <p>
+        Built content-based and collaborative filtering recommender systems for books using Python and similarity metrics.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>ML</span>
+        <span>Recommendation</span>
+        <span>Pandas</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/-Recommendation-Systems-for-Books">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <h3>Superstore Sales Report using Power BI</h3>
+      <p>
+        Analyzed sales, profit, and customer segments using Power BI dashboards with KPIs, trends, and visualizations.
+      </p>
+      <div class="project-tech">
+        <span>Power BI</span>
+        <span>Data Visualization</span>
+        <span>Dashboard</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Superstore-sales-report-using-Power-BI">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card">
+      <h3>Predict Seattle House Prices</h3>
+      <p>
+        Applied regression techniques including linear, ridge, and tree-based models to predict house prices in Seattle.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>ML</span>
+        <span>Regression</span>
+        <span>scikit-learn</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Predict-Seattle-house-prices-by-using-different-Regression-ML-">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 7 -->
+    <div class="project-card">
+      <h3>Insurance Data Analysis using Tableau</h3>
+      <p>
+        Conducted data exploration and visualization of insurance datasets with Tableau to uncover insights and patterns.
+      </p>
+      <div class="project-tech">
+        <span>Tableau</span>
+        <span>Data Visualization</span>
+        <span>EDA</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Insurance-data-analysis-by-Tableau">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 8 -->
+    <div class="project-card">
+      <h3>Simulation Comparison Study</h3>
+      <p>
+        Performed simulations to compare statistical models and evaluate performance under varying conditions.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>Simulation</span>
+        <span>Statistics</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/A-simulation-comparison-study">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 9 -->
+    <div class="project-card">
+      <h3>Predicting Malpractice Premiums for Hospitals</h3>
+      <p>
+        Developed regression models to predict hospital malpractice premiums using financial and operational data.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>Regression</span>
+        <span>ML</span>
+        <span>EDA</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/Predicting-Malpractice-Premiums-For-Hospital-Data">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 10 -->
+    <div class="project-card">
+      <h3>Titanic Dataset EDA using SQL and Python</h3>
+      <p>
+        Explored Titanic dataset, performed SQL queries and Python analysis to uncover patterns and visualize passenger demographics.
+      </p>
+      <div class="project-tech">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>EDA</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/ismat210/-Exploratory-Data-Analysis-on-Titanic-Dataset-Using-SQL-and-Python">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <a href="https://www.linkedin.com">LinkedIn</a> |
+    <a href="https://github.com">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  © 2025 Ismat Ara Khan
+</footer>
+
+</body>
+</html>
